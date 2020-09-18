@@ -1,6 +1,6 @@
 # About this Code
 ---
-Project-Code: Verzeo web App Deveopment for SQLi lab
+Project-Code: How To Install Linux, Apache, MySQL, PHP in Kali Linux and add a local host using server,domain name, with small database in your system. 
 Code Version: 1.0
 
 
