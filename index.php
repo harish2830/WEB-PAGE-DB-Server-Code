@@ -5,12 +5,12 @@ include("dbconf.php");
 ini_set('display_errors', 1);
 ?>
 <html>
-<head><title>fakebook </title>
+<head><title>Harish </title>
 </head>
 <body>
 <style>
 body {
-  background-color: lightblue;
+  background-color: tomato;
 }
 h1 {
   color: black;
@@ -88,7 +88,7 @@ echo $q;
 ?>
 
 <div class="footer">
-  <p>Code with ❤️ by @anir0y </p>
+  <p>Code with ❤️ by @ HASH </p>
 </div>
 </body>
 </html>
