@@ -88,7 +88,7 @@ echo $q;
 ?>
 
 <div class="footer">
-  <p>Code with ❤️ by @ HASH </p>
+  <p>Code with ❤️ by @ HARISH </p>
 </div>
 </body>
 </html>
