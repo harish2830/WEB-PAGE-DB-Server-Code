@@ -128,7 +128,6 @@ screen shot 2
 
 ### step 6
 
-###
 
 
 
