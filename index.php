@@ -49,6 +49,7 @@ p {
 			<p>
 			<input type="submit" value="Submit"/> 
 			<input type="reset" value="Reset"/>
+			<input type="button" value="cancel"/>
 			</p></div>
 		</form>
 		</center>
