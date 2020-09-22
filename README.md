@@ -181,5 +181,27 @@ It's show as below
 
 <MariaDB [phone]> select * from users;
 
-screeh shot 3
+Screen shot 3
+
+Now configure above data to php (dbconf.php) with localhost
+
+by assinging "localhost IP(127.0.0.1)", "username of database(nokia)", "PW(pass123)", DATABASENAME(phone)".
+
+Now all set in webpage, server and Database
+
+screen shot 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
