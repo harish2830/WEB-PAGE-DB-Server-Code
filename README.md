@@ -180,12 +180,6 @@ mysql(phone)> Select * from users;
 It's show as below
 
 <MariaDB [phone]> select * from users;
-+----+----------+----------------------------------+                                                                       
-| id | username | password                         |
-+----+----------+----------------------------------+
-|  1 | admin    | 14d5c10e6882acc65b33df04e64590e2 |
-|  2 | Rahul    | 14d5c10e6882acc65b33df04e64590e2 |
-|  3 | Sai      | 14d5c10e6882acc65b33df04e64590e2 |
-+----+----------+----------------------------------+
-3 rows in set (0.000 sec)
->
+
+screeh shot 3
+
