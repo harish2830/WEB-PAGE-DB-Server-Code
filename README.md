@@ -36,7 +36,7 @@ example :
 
 >http://127.0.0.1
 
-![image] 
+![image](Screenshots/1.png)
 
 
 
@@ -123,7 +123,7 @@ System control reload by Apache2
 
 >sudo systemctl reload apache2
 
-screen shot 2
+![image](Screenshots/2.png)
 
 ### step 6
 
@@ -181,7 +181,7 @@ It's show as below
 
 <MariaDB [phone]> select * from users;
 
-Screen shot 3
+![image](Screenshots/3.png)
 
 Now configure above data to php (dbconf.php) with localhost
 

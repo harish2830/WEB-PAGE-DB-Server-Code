@@ -36,7 +36,7 @@ example :
 
 >http://127.0.0.1
 
-Screen shot 
+![image](Screenshots/1.png)
 
 
 
@@ -123,10 +123,74 @@ System control reload by Apache2
 
 >sudo systemctl reload apache2
 
-![]{} success.
+![image](Screenshots/2.png)
 
+### step 6
 
-### step 
+#### Now we have to create Database and connection with Database to server
+
+Open MYSQL
+
+>Sudo mysql -u root -p
+
+u - user (Device)
+p - password (you device PW)
+
+After entering into MYSQL DB.
+
+Create your own DATABASE for which you assign your own USERNAME AND PASSWORD 
+
+mysql()>CREATE DATABASE phone(DATABASE NAME);
+
+mysql()>CREATE USER 'USERNAME'@'localhost' IDENTIFIED BY 'PW'; 
+
+ex: mysql()>CREATE USER 'nokia'@'localhost' IDENTIFIED BY 'pass123'; 
+
+mysql> exit;
+
+Your username/password was created now again go to mysql and login with your username and PW into your Database
+
+>Sudo mysql -u nokia(username) -p
+password: pass123(assigned PW)
+
+mysql()> USE phone; (DATABASENAME)
+
+mysql(phone)> 
+
+Now put Data in your Database by creating table and its rows and columns.
+
+mysql(phone)> CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(200) NOT NULL,
+  `password` varchar(33) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=66 ;
+
+mysql(phone)> INSERT INTO `users` (`id`, `username`, `password`) VALUES
+(1, 'admin', 'ec0bf802ab19813a5c1521de51addeef');
+
+mysql(phone)> INSERT INTO `users` (`id`, `username`, `password`) VALUES
+(2, 'Rahul', 'ec0bf802ab19813a5c1521de51addeef');
+
+mysql(phone)> INSERT INTO `users` (`id`, `username`, `password`) VALUES
+(3, 'sai', 'ec0bf802ab19813a5c1521de51addeef');
+
+mysql(phone)> Select * from users;
+
+It's show as below
+
+<MariaDB [phone]> select * from users;
+
+![image](Screenshots/3.png)
+
+Now configure above data to php (dbconf.php) with localhost
+
+by assinging "localhost IP(127.0.0.1)", "username of database(nokia)", "PW(pass123)", DATABASENAME(phone)".
+
+Now all set in webpage, server and Database
+
+![image](Screenshots/4.png)
+
 
 
 
