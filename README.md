@@ -36,7 +36,7 @@ example :
 
 >http://127.0.0.1
 
-Screen shot 
+![image] 
 
 
 
@@ -189,7 +189,8 @@ by assinging "localhost IP(127.0.0.1)", "username of database(nokia)", "PW(pass1
 
 Now all set in webpage, server and Database
 
-screen shot 4
+![image](Screenshots/4.png)
+
 
 
 
