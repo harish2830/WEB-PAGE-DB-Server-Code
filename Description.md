@@ -123,7 +123,7 @@ System control reload by Apache2
 
 >sudo systemctl reload apache2
 
-![]{} check this.
+![]{} check 
 
 
 ### step 
