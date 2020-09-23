@@ -4,7 +4,7 @@
 
 In Linux (kali) operating system make sure its an updated or upgraded version, If not,
 
-$ sudo apt update 
+> $ sudo apt update 
 
 Then move to 
 
@@ -190,19 +190,4 @@ by assinging "localhost IP(127.0.0.1)", "username of database(nokia)", "PW(pass1
 Now all set in webpage, server and Database
 
 ![image](Screenshots/4.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
