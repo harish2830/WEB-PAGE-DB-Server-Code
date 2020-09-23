@@ -4,7 +4,7 @@
 
 In Linux (kali) operating system make sure its an updated or upgraded version, If not,
 
-> sudo apt update 
+$ sudo apt update 
 
 Then move to 
 
