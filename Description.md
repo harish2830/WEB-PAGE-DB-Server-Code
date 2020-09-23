@@ -73,9 +73,9 @@ Create a website directory
 
 >sudo chmod -R 777 /var/www/html/phone (Domain name)
 
->copy requried files like php,html and database to estabilish or to run webpage in browser from 
+>copy requried files like php, html and database to connect or to run webpage in browser as login page from 
 
-https://github.com/harish2830/phone.git
+https://github.com/harish2830/Web-page.git
 
 ### step 5
 
